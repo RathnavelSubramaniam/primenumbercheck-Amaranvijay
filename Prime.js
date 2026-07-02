@@ -6,20 +6,20 @@
  */
 // const n= parselnt();
 const n = parselnt(process.argv[2]);
-function isPrime(n) {
+function isPrime(num){
     if (num <=1) return false;
 
-    for (let i =2;i < num; i++) {
-        if (num % i=== 0)  {
+    for(let i =2;i < num; i++) {
+        if(num % i=== 0)  {
             return false;
         }
    }
    return true;
 }
 
-if (isprime(n) {
+if(isprime(n) {
     console.log("prime number");
-} else {
+}else{
     console.log("not prime number");
 }
 
