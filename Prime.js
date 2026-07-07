@@ -6,7 +6,7 @@
  */
 // const n= parselnt();
 const n = parselnt(process.argv[2]);
-function isPrime(num){
+function isPrime(num) ^{
     if (num <=1) return false;
 
     for(let i =2;i < num; i++) {
